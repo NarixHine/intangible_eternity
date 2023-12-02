@@ -47,7 +47,7 @@ export default function China() {
                 <div className='flex-1 text-left text-md lg:text-xl'>1085年</div>
             </div>
             <div className='text-4xl lg:text-6xl text-center text-blue-100 my-16'><Fade>靖康之变，白瓷流落民间。</Fade></div>
-            <div className='text-4xl lg:text-6xl text-center text-blue-100 my-24 opacity-70'><Fade>🡫</Fade></div>
+            <div className='text-4xl lg:text-6xl text-center text-blue-100 my-24 opacity-70'><Fade>⇣</Fade></div>
 
         </div>
         <div className='relative w-full p-3'>
