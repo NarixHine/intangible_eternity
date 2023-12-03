@@ -3,6 +3,7 @@ import Lattice from './lattice.png'
 import Snow from './bg.png'
 import Logo from './logo.png'
 import Fade from '@/components/fade'
+import VideoPlayer from '@/components/video'
 
 export default function China() {
     return (<main>
@@ -14,9 +15,7 @@ export default function China() {
                 className='overflow-hidden object-cover object-center'
             ></Image>
             <Image alt='Logo' width={600} src={Logo} className='p-5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></Image>
-            <video className='object-cover h-full w-full' autoPlay loop muted>
-                <source src={'/garden.mp4'} type='video/mp4' />
-            </video>
+            <VideoPlayer src={'/garden.m3u8'} className={'object-cover h-full w-full'} autoPlay loop muted></VideoPlayer>
         </div>
         <div
             className='from-slate-100 from-20% p-10 w-full to-black to-70% bg-gradient-to-b border-b-2 border-slate-300'
@@ -59,9 +58,7 @@ export default function China() {
             ></Image>
             <Fade>
                 <div className='text-center text-4xl font-black my-6'>观看完整视频。</div>
-                <video controls width={'60%'} className='aspect-video mx-auto my-10'>
-                    <source src={'/garden.mp4'} type='video/mp4' />
-                </video>
+                <VideoPlayer src={'/garden.m3u8'} className={'aspect-video mx-auto my-10 w-4/5 lg:w-1/2'} controls></VideoPlayer>
             </Fade>
         </div>
     </main >)
