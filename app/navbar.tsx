@@ -11,7 +11,7 @@ function NavBar() {
         <nav
             className={`flex w-full z-50 items-center space-x-4 lg:space-x-6 p-4 fixed top-0 border-y-amber-950 bg-slate-200/20 border-y-2 ${zmx.className}`}
         >
-            <h1 className='font-bold text-xl text-transparent bg-clip-text bg-gradient-to-br from-amber-400 to-blue-400'>
+            <h1 className='text-xl text-transparent bg-clip-text bg-gradient-to-br from-amber-400 to-blue-400'>
                 <Link href={'/'}>非物质的永恒</Link>
             </h1>
             <span className='flex-1'></span>
