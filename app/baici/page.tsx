@@ -20,9 +20,9 @@ export default function China() {
         <div
             className='bg-slate-100 border-b-2 border-slate-300 p-10'
         >
-            <div className='mx-auto text-blue-900 text-xl text-center'>我们总是惊叹于景德镇的瓷器之美，<br></br>却不知其过程的艰辛，技艺的精湛。</div>
+            <div className='mx-auto text-blue-900 text-2xl text-center'>我们总是惊叹于景德镇的瓷器之美，<br></br>却不知其过程的艰辛，技艺的精湛。</div>
             <br></br>
-            <div className='mx-auto text-blue-900 text-5xl text-center'><Fade>七十二道工艺</Fade></div>
+            <div className='mx-auto text-blue-900 text-7xl text-center my-10'><Fade>七十二道工艺</Fade></div>
             <br></br>
             <div className='mx-auto flex w-full space-x-4 text-blue-700'>
                 <div className='flex-1 text-right text-xl lg:text-3xl'><Fade>材料选取、制坯、刻花勾描、釉料配置、施釉、烧窑</Fade></div>

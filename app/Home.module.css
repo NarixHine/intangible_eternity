@@ -1,36 +1,35 @@
 .window_1 {
-    left: -100px;
+    left: -180px;
     animation: slide_1 2s forwards;
     animation-delay: 1s;
 }
 
 @keyframes slide_1 {
     100% {
-        left: 280px;
+        left: 240px;
     }
 }
 
 .window_2 {
-    left: -100px;
+    left: -200px;
     animation: slide_2 2s forwards;
     animation-delay: 1s;
 }
 
 @keyframes slide_2 {
     100% {
-        left: 220px;
+        left: 180px;
     }
 }
 
 .window_3 {
-    left: -100px;
+    left: -220px;
     animation: slide_3 2s forwards;
     animation-delay: 1s;
 }
 
 @keyframes slide_3 {
     100% {
-        left: 160px;
+        left: 120px;
     }
 }
-
