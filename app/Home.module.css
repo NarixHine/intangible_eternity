@@ -1,5 +1,5 @@
 .window_1 {
-    left: -180px;
+    left: -200px;
     animation: slide_1 2s forwards;
     animation-delay: 1s;
 }
@@ -11,7 +11,7 @@
 }
 
 .window_2 {
-    left: -200px;
+    left: -220px;
     animation: slide_2 2s forwards;
     animation-delay: 1s;
 }
@@ -23,7 +23,7 @@
 }
 
 .window_3 {
-    left: -220px;
+    left: -240px;
     animation: slide_3 2s forwards;
     animation-delay: 1s;
 }
