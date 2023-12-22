@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import styles from './Fade.module.scss'
+import Balancer from 'react-wrap-balancer'
 
 function Fade({ children }: { children: React.ReactNode }) {
   const [isVisible, setVisible] = useState(true)
@@ -30,7 +31,7 @@ function Fade({ children }: { children: React.ReactNode }) {
       }`}
       ref={domRef}
     >
-      {children}
+      <Balancer>{children}</Balancer>
     </div>
   )
 }

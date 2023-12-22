@@ -22,7 +22,7 @@ function NavBar() {
                 <Image src={Baici} height={20} quality={100} alt='白瓷宋清波'></Image>
             </Link>
             <Link
-                href=''
+                href='https://scroll-picture.netlify.app/'
             >
                 <Image src={Chuisu} height={20} quality={100} alt='吹塑版画'></Image>
             </Link>
