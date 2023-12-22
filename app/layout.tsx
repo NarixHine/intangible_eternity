@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Noto_Serif_SC } from 'next/font/google'
 import './globals.css'
 import NavBar from './navbar'
+import { Analytics } from '@vercel/analytics/react'
 
 const noto = Noto_Serif_SC({ subsets: ['latin'], weight: ['400', '700'] })
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={noto.className}>
         <NavBar></NavBar>
         {children}
+        <Analytics></Analytics>
       </body>
     </html>
   )
