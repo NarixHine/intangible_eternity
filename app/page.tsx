@@ -19,9 +19,9 @@ export default function Home() {
         fill={true}
         className='object-cover object-center pointer-events-none'
       ></Image>
-      <Image src={Logo} height={50} quality={100} alt='非物质的永恒' className='absolute left-5 top-1/2 pointer-events-none'></Image>
+      <Image src={Logo} height={50} quality={100} alt='非物质的永恒' priority className='absolute left-5 top-1/2 pointer-events-none'></Image>
       <Link href={'./baici'} className={`absolute top-1/4 ${Styles.window_1}`}>
-        <Image src={Baici} height={130} quality={100} alt='白瓷宋清波' ></Image>
+        <Image src={Baici} height={130} quality={100} alt='白瓷宋清波'></Image>
       </Link>
       <Link href={'https://scroll-picture.netlify.app/'} className={`absolute top-2/4 ${Styles.window_2}`}>
         <Image src={Chuisu} height={130} quality={100} alt='吹塑版画'></Image>

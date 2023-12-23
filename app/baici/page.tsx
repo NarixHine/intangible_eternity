@@ -17,7 +17,7 @@ export default function China() {
                 fill={true}
                 className='overflow-hidden object-cover object-center'
             ></Image>
-            <Image alt='Logo' width={600} src={Logo} className='p-5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></Image>
+            <Image alt='Logo' width={600} src={Logo} priority className='p-5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></Image>
             <VideoPlayer src={'/garden.m3u8'} className={'object-cover h-full w-full'} autoPlay loop muted></VideoPlayer>
         </div>
         <div
