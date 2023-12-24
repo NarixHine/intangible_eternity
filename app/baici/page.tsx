@@ -15,9 +15,9 @@ export default function China() {
                 src={Lattice}
                 alt='Lattice'
                 fill={true}
-                className='overflow-hidden object-cover object-center'
+                className='overflow-hidden object-cover object-center pointer-events-none'
             ></Image>
-            <Image alt='Logo' width={600} src={Logo} priority className='p-5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></Image>
+            <Image alt='Logo' width={600} src={Logo} priority className='p-5 pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></Image>
             <VideoPlayer src={'/garden.m3u8'} className={'object-cover h-full w-full'} autoPlay loop muted></VideoPlayer>
         </div>
         <div
@@ -54,7 +54,7 @@ export default function China() {
             <div className='text-lg lg:text-2xl text-center text-blue-400 mt-16'><Fade>当然，不只是这些。</Fade></div>
             <div className='text-lg lg:text-2xl text-center text-blue-400'><Fade>你想知道那一件件瓷器文物背后的故事吗？</Fade></div>
             <br></br>
-            <div className='text-3xl lg:text-5xl text-center text-blue-400'><Fade>那就让我们走近一件青瓷的“一生”。</Fade></div>
+            <div className='text-3xl md:text-5xl text-center text-blue-400'><Fade>那就让我们走近一件青瓷的“一生”。</Fade></div>
             <div className='text-xl lg:text-5xl text-center text-blue-400 my-24 opacity-70'><Fade>⇣</Fade></div>
         </div>
         <div className='relative w-full p-3'>
@@ -62,7 +62,7 @@ export default function China() {
                 src={Snow}
                 alt='Snowy Town'
                 fill={true}
-                className='overflow-hidden object-cover object-center -z-10'
+                className='overflow-hidden object-cover object-center pointer-events-none -z-10'
             ></Image>
             <Fade>
                 <div className='text-center text-4xl font-black my-6'>观看完整视频。</div>
